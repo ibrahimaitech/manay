@@ -17,10 +17,11 @@ global.packname = 'Sticker By'
 global.author = process.env.AUTHOR || "sɪʀ ɪʙʀᴀʜɪᴍ",
 //console view/theme
 global.themeemoji = '🧩'
-global.wm = "ibrahim botz inc."
+global.themeemoji = '🧩'
+global.wm = "Ayush botz inc."
 
 //theme link
-global.link = 'https://whatsapp.com/channel/0029VaZuGSxEawdxZK9CzM0Y'
+global.link = 'https://whatsapp.com/channel/0029VaImo5ZG3R3qjKOdyr1I'
 
 //custom prefix
 global.prefa = process.env.PREFIX || ".",
@@ -33,7 +34,7 @@ global.autorecordtype = false //auto typing + recording
 global.autoread = false //auto read messages
 global.autobio = false //auto update bio
 global.anti212 = true //auto block +212
-global.autoread_status = true //auto view status/story
+global.autoread_status = false //auto view status/story
 
 
 
@@ -53,9 +54,9 @@ global.mess = {
 module.exports = {
 ownernumber: global.ownernumber,
 ownername: global.ownername,
-sessionId: "_M_A_R_I_A_RGVzZXJ0U2hydWdzCg==",
+sessionId: process.env.id,
 AUTO_BLOCK : process.env.PM_BLOCKER,
-STATUS_SAVER : "false",
+STATUS_SAVER : "true",
 ANTI_BOT:"true",
 }
 
