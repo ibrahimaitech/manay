@@ -179,7 +179,7 @@ console.log(chalk.gray('\n\n🚀Initializing...'));
 console.log(chalk.cyan('\n\n🥵Connected'));
 
 Maria.sendMessage(Maria.user.id, {
-    text: ` *SLOTY MD ONLINE*
+    text: `sʟᴏᴛʏ-ᴍᴅ ᴄᴏɴɴᴇᴄᴛᴇᴅ 
 
 ᴘʀᴇꜰɪx: [ ${prefix} ]\n
 ᴄᴏᴍᴍᴀɴᴅꜱ: 246\n
